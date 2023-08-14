@@ -17,7 +17,7 @@ sequenceDiagram
   server-->>browser: JS File
   Note right of browser: browser executes javascript code
   browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
-  server-->browser: [{"content": "22","date": "2023-08-14T14:48:08.643Z"}, ...]
+  server-->>browser: [{"content": "22","date": "2023-08-14T14:48:08.643Z"}, ...]
   
 
 ```
